@@ -1,0 +1,13 @@
+routes:
+  - path: /auth
+    backend: http://localhost:8083
+    methods: ["GET", "POST"]
+  - path: /users
+    backend: http://localhost:8081
+    methods: ["GET", "POST", "PUT", "DELETE"]
+  - path: /orders
+    backend: http://localhost:8082
+    methods: ["GET", "POST", "PUT", "DELETE"]
+  - path: /metrics
+    backend: http://localhost:8000
+    methods: ["GET"] 
