@@ -2,7 +2,7 @@
 
 A microservice-based inventory system built entirely in Go that demonstrates best practices for production-ready backend systems. This project showcases idiomatic Go, microservices architecture, API gateway patterns, and modern software engineering principles.
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Components
 
@@ -31,7 +31,7 @@ A microservice-based inventory system built entirely in Go that demonstrates bes
    - Shared configuration and database schemas
    - Reusable components across services
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Go 1.21+** - Primary programming language
 - **SQLite** - Lightweight database (can be replaced with PostgreSQL)
@@ -41,7 +41,7 @@ A microservice-based inventory system built entirely in Go that demonstrates bes
 - **Prometheus** - Metrics collection and monitoring
 - **Docker & Docker Compose** - Containerization and orchestration
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 go-inventory-system/
@@ -78,7 +78,7 @@ go-inventory-system/
 └── README.md               # Documentation
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -126,7 +126,7 @@ go-inventory-system/
    - Users Service: http://localhost:8081
    - Orders Service: http://localhost:8082
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Authentication
 
@@ -156,7 +156,7 @@ go-inventory-system/
 - `GET /health` - Service health check
 - `GET /metrics` - Prometheus metrics
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -183,7 +183,7 @@ routes:
     methods: ["GET", "POST", "PUT", "DELETE"]
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Manual Testing with curl
 
@@ -226,7 +226,7 @@ routes:
      }'
    ```
 
-## 🔒 Security Features
+## Security Features
 
 - **JWT Authentication** - Stateless token-based authentication
 - **Password Hashing** - bcrypt for secure password storage
@@ -234,14 +234,14 @@ routes:
 - **CORS Support** - Cross-origin resource sharing
 - **Input Validation** - Request validation and sanitization
 
-## 📊 Monitoring & Observability
+## Monitoring & Observability
 
 - **Request Logging** - Detailed request/response logging
 - **Prometheus Metrics** - HTTP request counts and durations
 - **Health Checks** - Service health monitoring
 - **Graceful Shutdown** - Proper service termination
 
-## 🏗️ Best Practices Implemented
+## Best Practices Implemented
 
 ### Code Organization
 - **Modular Design** - Single responsibility principle
@@ -267,7 +267,7 @@ routes:
 - **Environment Configuration** - Flexible configuration management
 - **Health Monitoring** - Service health checks
 
-## 🚀 Production Considerations
+## Production Considerations
 
 ### Scalability
 - **Microservices Architecture** - Independent service scaling
@@ -287,7 +287,7 @@ routes:
 - **Input Sanitization** - XSS and injection prevention
 - **Audit Logging** - Security event tracking
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -295,14 +295,8 @@ routes:
 4. Add tests for new functionality
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
-
-For questions, issues, or contributions, please open an issue on the repository.
-
 ---
-
-**Happy coding! 🚀** 
